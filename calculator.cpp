@@ -75,7 +75,7 @@ void Calculator::slotButtonClicked()
 		m_plcd->display("0");
 		return;
 	}
-	if(str.contains(QRegExp("[0-9]"))) //мейби не квадратные надо поставить
+	if(str.contains(QRegExp("[0-9]")))
 	{
 		m_strDisplay += str;
 		m_plcd->display(m_strDisplay.toDouble());
