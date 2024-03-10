@@ -1,1 +1,2 @@
-# C-Qt-Calculator
+# Qt-Calculator
+Калькулятор на C++ с графическим интерфейсом(Qt), сборщик CMake
